@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import BeautifulForm from "./components/form";
-import Display from "./components/display";
+import Display from "./components/Display";
+
 
 const App = () => {
   const [submittedData, setSubmittedData] = useState(() => {
